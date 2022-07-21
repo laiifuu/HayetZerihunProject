@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+
+header {
+    background-color: #be3144;
+    position: fixed;
+    width: 100%;
+}
+
+#welcome-section{
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section>div>h1{
+    font-size: 48px;
+    color: white;
+}
+#welcome-section>div>h2 {
+    color:  #be3144;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+#welcome-section>div{
+    height: fit-content;
+    text-align: center;
+}
+#project-section{
+    text-align: center;
+    background-color: #45567d;
+    display: flex;
+    width: 100%;
+}
+.project-tile{
+
+    width: 30%;
+    
+}
+.project-tile>p{
+    padding: 10px;
+    color: white;
+    background-color: #3a3d40;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background:;
+}
