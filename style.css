@@ -10,6 +10,10 @@ body{
     font-size: 18px;
 }
 
+img{
+    width: 100%;
+}
+
 ul{
     list-style: none;
     padding: 10px;
@@ -56,16 +60,24 @@ header {
     height: fit-content;
     text-align: center;
 }
-#project-section{
+#projects{
+    padding: 30px;
+    margin: 30px;
     text-align: center;
     background-color: #45567d;
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
-.project-tile{
 
+#projects > h1{
+    font-size: 36px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.project-tile{
     width: 30%;
-    
 }
 .project-tile>p{
     padding: 10px;
@@ -73,13 +85,10 @@ header {
     background-color: #3a3d40;
     text-align: center;
 }
-img{
-    width: 100%;
-}
 footer{
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
-    background:;
+    
 }
