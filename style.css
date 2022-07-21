@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    border: 1px solid black;
+   
     box-sizing: border-box;
 }
 body{
@@ -62,28 +62,43 @@ header {
 }
 #projects{
     padding: 30px;
-    margin: 30px;
     text-align: center;
     background-color: #45567d;
-    display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 #projects > h1{
     font-size: 36px;
-    padding: 20px;
+    padding: 40px;
     text-decoration: underline;
+    color:white;
 }
 
 .project-tile{
     width: 30%;
+    margin: 20px;
 }
 .project-tile>p{
     padding: 10px;
     color: white;
     background-color: #3a3d40;
     text-align: center;
+}
+button{
+    width: fit-content;
+    padding: 20px;
+    color: white;
+    background-color: #3a3d40;
+    border: 0px;
+    font-size: 24px;
+    font-weight: 600;
 }
 footer{
     font-weight: 300;
